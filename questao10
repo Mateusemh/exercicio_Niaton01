@@ -1,0 +1,16 @@
+import random
+
+itens = ['pedra', 'papel', 'tesoura']
+
+usuario = input("Escolha: pedra, papel ou tesoura: ").lower()
+computador = random.choice(itens)
+
+print(f"Você escolheu: {usuario}")
+print(f"O computador escolheu: {computador}")
+
+if usuario == computador:
+    print("Empate!")
+elif (usuario == 'pedra' and computador == 'tesoura') or (usuario == 'papel' and computador == 'pedra') or (usuario == 'tesoura' and computador == 'papel'):
+    print("Droga vc venceu")
+else:
+    print("Perdeu trouxa")
