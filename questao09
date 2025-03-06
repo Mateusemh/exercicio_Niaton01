@@ -1,0 +1,5 @@
+nomes = input().split()
+
+nomes_com_a = [nome for nome in nomes if nome[0].upper() == 'A']
+
+print(nomes_com_a)
