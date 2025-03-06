@@ -1,2 +1,2 @@
-# exercicio_Niaton01
+# exercicio_Niston01
 exercicio 1
