@@ -1,0 +1,7 @@
+numeros = list(map(int, input().split()))
+
+maior = max(numeros)
+menor = min(numeros)
+
+print("Maior:", maior)
+print("Menor:", menor)
